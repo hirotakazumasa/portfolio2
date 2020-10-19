@@ -1,0 +1,64 @@
+/*
+Error: Invalid CSS after ".": expected class name, was ".icon-team:before"
+        on line 31 of /Users/hirota/Desktop/simizusinnseikaihirota/src/scss/kagayakispecial.scss
+
+26: 
+27:   /* Better Font Rendering =========== *\/
+28:   -webkit-font-smoothing: antialiased;
+29:   -moz-osx-font-smoothing: grayscale;
+30: }
+31: ..icon-team:before {
+32:   content: "\e912";
+33:   color: #fff;
+34: }
+35: .icon-composite:before {
+36:   content: "\e910";
+
+Backtrace:
+/Users/hirota/Desktop/simizusinnseikaihirota/src/scss/kagayakispecial.scss:31
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:197:in `class_selector'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:159:in `simple_selector_sequence'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:111:in `selector'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:86:in `selector_comma_sequence'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1115:in `expr!'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/hirota/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \".\": expected class name, was \".icon-team:before\"\A         on line 31 of /Users/hirota/Desktop/simizusinnseikaihirota/src/scss/kagayakispecial.scss\A \A 26: \A 27:   /* Better Font Rendering =========== */\A 28:   -webkit-font-smoothing: antialiased;\A 29:   -moz-osx-font-smoothing: grayscale;\A 30: }\A 31: ..icon-team:before {\A 32:   content: \"\e912\";\A 33:   color: #fff;\A 34: }\A 35: .icon-composite:before {\A 36:   content: \"\e910\";"; }
